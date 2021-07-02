@@ -1,0 +1,9 @@
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\bin\Debug\netcoreapp3.1\CampaignFileAttacher.deps.json
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\bin\Debug\netcoreapp3.1\CampaignFileAttacher.dll
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\bin\Debug\netcoreapp3.1\CampaignFileAttacher.pdb
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\obj\Debug\netcoreapp3.1\CampaignFileAttacher.AssemblyInfoInputs.cache
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\obj\Debug\netcoreapp3.1\CampaignFileAttacher.AssemblyInfo.cs
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\obj\Debug\netcoreapp3.1\CampaignFileAttacher.csproj.CoreCompileInputs.cache
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\obj\Debug\netcoreapp3.1\CampaignFileAttacher.dll
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\obj\Debug\netcoreapp3.1\CampaignFileAttacher.pdb
+C:\Users\alber\Downloads\PDCAlbertoGiffard\CampaignFileAttacher\obj\Debug\netcoreapp3.1\CampaignFileAttacher.csproj.AssemblyReference.cache

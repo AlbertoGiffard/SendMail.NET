@@ -1,0 +1,12 @@
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\bin\Debug\netcoreapp3.1\CampaignSender.deps.json
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\bin\Debug\netcoreapp3.1\CampaignSender.dll
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\bin\Debug\netcoreapp3.1\CampaignSender.pdb
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.AssemblyInfoInputs.cache
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.AssemblyInfo.cs
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.csproj.CoreCompileInputs.cache
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.dll
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.pdb
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\bin\Debug\netcoreapp3.1\CampaignFileAttacher.dll
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\bin\Debug\netcoreapp3.1\CampaignFileAttacher.pdb
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.csproj.AssemblyReference.cache
+C:\Users\alber\Downloads\PDCAlbertoGiffard\Campaign-Sender\obj\Debug\netcoreapp3.1\CampaignSender.csproj.CopyComplete

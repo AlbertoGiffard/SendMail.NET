@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AttachFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AttachmentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChangeDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UploadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
