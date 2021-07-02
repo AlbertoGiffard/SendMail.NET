@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
+      "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
       "projectName": "CampaignFileAttacher",
-      "projectPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
+      "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
       "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\obj\\",
+      "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\Campaign-Sender\\CampaignSender.csproj": {}
+    "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\Campaign-Sender\\CampaignSender.csproj": {
+    "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\Campaign-Sender\\CampaignSender.csproj",
+        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj",
         "projectName": "CampaignSender",
-        "projectPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\Campaign-Sender\\CampaignSender.csproj",
+        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj",
         "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\Campaign-Sender\\obj\\",
+        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
-                "projectPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj"
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
+    "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
+        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
         "projectName": "CampaignFileAttacher",
-        "projectPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
+        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
         "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\obj\\",
+        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

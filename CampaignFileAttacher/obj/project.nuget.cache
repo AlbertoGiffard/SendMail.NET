@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cYJrKs/beGTBSt4OwLlmyUASVPuiR+bgCHmvoW2IQCCNaAlloIeJfJZy7ExXDpSLCLmeqQhwYMCAAVp5LUMOaQ==",
+  "dgSpecHash": "NnBomMEKLW0d5iOP76RkEHVQ+KE69okGc+hCNNF2QT/Ss3FCZvkiHqHiec+sOKk56TVH6l8AGOMPhCQmHthl6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
+  "projectFilePath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

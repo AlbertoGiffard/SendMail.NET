@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qDRZ9EjgJzvT3R4quRMNfBxRX+/tAvCntQjUx0hPW4Vc3C54ldmg0jxwU8hWCSQYNPDaljjUXjuJZiP6VcYfww==",
+  "dgSpecHash": "uxT9hCnIsydq9Sz41Jx0gm74MrJVckMmJuQ6zcEzzLvIX1+L3g/vg43zo+ny8wDmL/1VUrFJTBisS8FInQjR4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\Campaign-Sender\\CampaignSender.csproj",
+  "projectFilePath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

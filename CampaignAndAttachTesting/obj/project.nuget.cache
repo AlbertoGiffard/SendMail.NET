@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "STrHY0FDKCDKNHXIbnY9Ilz6a8czDfqqWokInawNYOPWWD8v4zvBZq4dtG5Nev1tO6WCH+z2hPcazg0FRYuAYg==",
+  "dgSpecHash": "dDRmhHj6y8UICodN7EmKkiQWUbr1TwJUI+i9Vft5oySHUVblEPRLOYBEnA1uV5JK0FrQA0W1FUL/Evu1GSXPYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alber\\Downloads\\PDCAlbertoGiffard\\CampaignAndAttachTesting\\CampaignAndAttachTesting.csproj",
+  "projectFilePath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignAndAttachTesting\\CampaignAndAttachTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alber\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
