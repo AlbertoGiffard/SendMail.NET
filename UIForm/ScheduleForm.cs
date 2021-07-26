@@ -1,4 +1,5 @@
-﻿using CampaignSender;
+﻿using Connection;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,7 +43,7 @@ namespace UIForm
                 //version con base de datos
                 try
                 {
-                rchTxtCampaignSended.Text = Connection.GetCampaignsFromTo(dtPickerSince.Value, dtPickerUntil.Value);
+                rchTxtCampaignSended.Text = Connect.GetCampaignsFromTo(dtPickerSince.Value, dtPickerUntil.Value);
                 }
                 catch (Exception ex)
                 {

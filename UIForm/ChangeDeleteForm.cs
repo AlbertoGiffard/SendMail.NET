@@ -1,5 +1,5 @@
-﻿ using CampaignFileAttacher;
-using CampaignSender;
+﻿using Entity;
+using Connection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,13 +8,14 @@ using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
+using AppLogic;
 
 namespace UIForm
 {
     public partial class ChangeDeleteForm : Form
     {
         private Campaign campaign;
-        private FileAttacher fileAttacher;
+        private FileAttach fileAttacher;
         public ChangeDeleteForm()
         {
             InitializeComponent();
@@ -24,7 +25,7 @@ namespace UIForm
         {
             try
             {
-                this.campaign = Connection.GetCampaignWithAttach((int)numericUp.Value);
+                this.campaign = Connect.GetCampaignWithAttach((int)numericUp.Value);
             }
             catch (Exception)
             {
@@ -67,7 +68,7 @@ namespace UIForm
             {
                 try
                 {
-                    Connection.DeleteFileAttach(this.campaign);
+                    ActionDataBase.DeleteFileAttach(this.campaign);
                     MessageBox.Show("Se logro eliminar el adjunto con éxito", "Listo!");
                 }
                 catch (Exception)
@@ -83,6 +84,7 @@ namespace UIForm
             lblNewFile.Visible = true;
             btnSave.Visible = true;
             lblNewFileChange.Visible = true;
+            FileAttach fileAttach = new FileAttach();
 
             using (OpenFileDialog open = new OpenFileDialog())
             {
@@ -93,9 +95,9 @@ namespace UIForm
                     //Obtiene la ruta
                     string path = open.FileName;
                     string appPath = Application.StartupPath + "\\FilesAttached\\" + open.SafeFileName;
-                    if (FileAttacher.ValidateSize(path))
+                    if (fileAttach.ValidateSize(path))
                     {
-                        this.fileAttacher = new FileAttacher(this.campaign.Id, open.SafeFileName, "\\FilesAttached\\" + open.SafeFileName);
+                        this.fileAttacher = new FileAttach(this.campaign.Id, open.SafeFileName, "\\FilesAttached\\" + open.SafeFileName);
                         lblNewFileChange.Text = open.SafeFileName;
                         btnSearchCampaign.BackColor = Color.Lime;
 
@@ -119,7 +121,7 @@ namespace UIForm
         {
             try
             {
-                Connection.SaveAttachment(this.fileAttacher);
+                ActionDataBase.SaveAttachment(this.fileAttacher);
                 MessageBox.Show("Cargado correctamente", "Listo!");
                 numericUp.Value = 1;
                 this.CleanForm();

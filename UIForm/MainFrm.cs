@@ -1,4 +1,6 @@
-﻿using CampaignSender;
+﻿using AppLogic;
+using Connection;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -58,7 +60,7 @@ namespace UIForm
                 this.stateSend = true;
                 try
                 {
-                    id = BaseCampaign.MaxId(this.baseCampaign);
+                    id = ActionBaseCampaign.MaxId(this.baseCampaign);
                     if (id != 1)
                     {
                         id++;
@@ -69,7 +71,7 @@ namespace UIForm
                     //Realiza el envío de la campaña
                     SendMail.SendCampaign(campaign);
                     //guarda la campaña en la base de datos
-                    Connection.SaveCampaign(campaign);
+                    ActionDataBase.SaveCampaign(campaign);
                     MessageBox.Show("Enviado correctamente\nPuede llegar a demorar en llegar", "Success");
                 }
                 catch (Exception ex)

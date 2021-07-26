@@ -4,14 +4,14 @@
     "C:\\Users\\alber\\Downloads\\SendMail.NET\\UIForm\\UIForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj": {
+    "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj",
-        "projectName": "CampaignSender",
-        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj",
+        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj",
+        "projectName": "AppLogic",
+        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj",
         "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\obj\\",
+        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,73 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
-                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj"
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj"
+              },
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj",
+        "projectName": "Connection",
+        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj",
+        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj"
               }
             }
           }
@@ -72,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
+    "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
-        "projectName": "CampaignFileAttacher",
-        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj",
+        "projectUniqueName": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\obj\\",
+        "outputPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -158,8 +223,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj": {
-                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj"
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj"
+              },
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Connection\\Connection.csproj"
+              },
+              "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj"
               }
             }
           }

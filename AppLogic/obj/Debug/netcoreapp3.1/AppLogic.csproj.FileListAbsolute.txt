@@ -1,0 +1,14 @@
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\AppLogic.deps.json
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\AppLogic.dll
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\AppLogic.pdb
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\Connection.dll
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\Connection.pdb
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.csproj.AssemblyReference.cache
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.AssemblyInfoInputs.cache
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.AssemblyInfo.cs
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.csproj.CoreCompileInputs.cache
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.csproj.CopyComplete
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.dll
+C:\Users\alber\Downloads\SendMail.NET\AppLogic\obj\Debug\netcoreapp3.1\AppLogic.pdb

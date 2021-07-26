@@ -1,5 +1,5 @@
-using CampaignFileAttacher;
-using CampaignSender;
+using AppLogic;
+using Entity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

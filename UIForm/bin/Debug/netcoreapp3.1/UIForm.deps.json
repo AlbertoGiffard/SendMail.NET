@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "UIForm/1.0.0": {
         "dependencies": {
-          "CampaignSender": "1.0.0"
+          "AppLogic": "1.0.0",
+          "Connection": "1.0.0",
+          "Entity": "1.0.0"
         },
         "runtime": {
           "UIForm.dll": {}
@@ -89,18 +91,27 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "CampaignFileAttacher/1.0.0": {
+      "AppLogic/1.0.0": {
+        "dependencies": {
+          "Connection": "1.0.0",
+          "Entity": "1.0.0"
+        },
         "runtime": {
-          "CampaignFileAttacher.dll": {}
+          "AppLogic.dll": {}
         }
       },
-      "CampaignSender/1.0.0": {
+      "Connection/1.0.0": {
         "dependencies": {
-          "CampaignFileAttacher": "1.0.0",
+          "Entity": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
-          "CampaignSender.dll": {}
+          "Connection.dll": {}
+        }
+      },
+      "Entity/1.0.0": {
+        "runtime": {
+          "Entity.dll": {}
         }
       }
     }
@@ -174,12 +185,17 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "CampaignFileAttacher/1.0.0": {
+    "AppLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CampaignSender/1.0.0": {
+    "Connection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

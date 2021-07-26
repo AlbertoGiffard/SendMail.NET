@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "CampaignAndAttachTesting/1.0.0": {
         "dependencies": {
-          "CampaignFileAttacher": "1.0.0",
-          "CampaignSender": "1.0.0",
+          "AppLogic": "1.0.0",
+          "Entity": "1.0.0",
           "MSTest.TestAdapter": "2.1.0",
           "MSTest.TestFramework": "2.1.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
@@ -1146,18 +1146,27 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "CampaignFileAttacher/1.0.0": {
+      "AppLogic/1.0.0": {
+        "dependencies": {
+          "Connection": "1.0.0",
+          "Entity": "1.0.0"
+        },
         "runtime": {
-          "CampaignFileAttacher.dll": {}
+          "AppLogic.dll": {}
         }
       },
-      "CampaignSender/1.0.0": {
+      "Connection/1.0.0": {
         "dependencies": {
-          "CampaignFileAttacher": "1.0.0",
+          "Entity": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
-          "CampaignSender.dll": {}
+          "Connection.dll": {}
+        }
+      },
+      "Entity/1.0.0": {
+        "runtime": {
+          "Entity.dll": {}
         }
       }
     }
@@ -1833,12 +1842,17 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "CampaignFileAttacher/1.0.0": {
+    "AppLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CampaignSender/1.0.0": {
+    "Connection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

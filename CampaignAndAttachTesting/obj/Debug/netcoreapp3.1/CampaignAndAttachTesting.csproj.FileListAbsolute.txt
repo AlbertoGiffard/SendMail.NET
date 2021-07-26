@@ -194,10 +194,12 @@ C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcore
 C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\CampaignFileAttacher.dll
-C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\CampaignSender.dll
-C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\CampaignSender.pdb
-C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\CampaignFileAttacher.pdb
+C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\AppLogic.dll
+C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\Connection.dll
+C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\AppLogic.pdb
+C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\bin\Debug\netcoreapp3.1\Connection.pdb
 C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\obj\Debug\netcoreapp3.1\CampaignAndAttachTesting.csproj.AssemblyReference.cache
 C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\obj\Debug\netcoreapp3.1\CampaignAndAttachTesting.AssemblyInfoInputs.cache
 C:\Users\alber\Downloads\SendMail.NET\CampaignAndAttachTesting\obj\Debug\netcoreapp3.1\CampaignAndAttachTesting.AssemblyInfo.cs

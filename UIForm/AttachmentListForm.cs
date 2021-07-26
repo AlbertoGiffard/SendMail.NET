@@ -1,4 +1,4 @@
-﻿using CampaignSender;
+﻿using Connection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +26,7 @@ namespace UIForm
             {
                 try
                 {
-                    rchTxtBoxCampaign.Text = Connection.GetCampaignsAttachFromTo(dtSince.Value, dtUntil.Value);
+                    rchTxtBoxCampaign.Text = Connect.GetCampaignsAttachFromTo(dtSince.Value, dtUntil.Value);
                 }
                 catch (Exception ex)
                 {

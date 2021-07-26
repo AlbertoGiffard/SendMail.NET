@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Campaign-Sender\CampaignSender.csproj" />
+    <ProjectReference Include="..\AppLogic\AppLogic.csproj" />
+    <ProjectReference Include="..\Connection\Connection.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
   </ItemGroup>
 
 </Project>

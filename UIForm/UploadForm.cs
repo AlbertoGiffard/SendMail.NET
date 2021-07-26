@@ -1,5 +1,6 @@
-﻿using CampaignFileAttacher;
-using CampaignSender;
+﻿using AppLogic;
+using Connection;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ namespace UIForm
     public partial class UploadForm : Form
     {
         private Campaign campaign;
-        private FileAttacher fileAttacher;
+        private FileAttach fileAttacher;
         public UploadForm()
         {
             InitializeComponent();
@@ -22,7 +23,7 @@ namespace UIForm
 
         private void btnSearchCampaign_Click(object sender, EventArgs e)
         {
-            this.campaign = Connection.GetCampaign((int)numericUp.Value);
+            this.campaign = Connect.GetCampaign((int)numericUp.Value);
 
             if (this.campaign is null)
             {
@@ -41,6 +42,7 @@ namespace UIForm
 
         private void btnFind_Click(object sender, EventArgs e)
         {
+            FileAttach fileAttach = new FileAttach();
             using (OpenFileDialog open = new OpenFileDialog())
             {
                 open.Title = "Selecciona el archivo para subir";
@@ -50,12 +52,12 @@ namespace UIForm
                     //Obtiene la ruta
                     string path = open.FileName;
                     string appPath = Application.StartupPath + "\\FilesAttached\\" + open.SafeFileName;
-                    if (FileAttacher.ValidateSize(path))
+                    if (fileAttach.ValidateSize(path))
                     {
                         lblNameFile.Text = open.SafeFileName;
                         btnSearchCampaign.BackColor = Color.Lime;
 
-                        this.fileAttacher = new FileAttacher(this.campaign.Id, open.SafeFileName, "\\FilesAttached\\" + open.SafeFileName);
+                        this.fileAttacher = new FileAttach(this.campaign.Id, open.SafeFileName, "\\FilesAttached\\" + open.SafeFileName);
                         this.campaign.FileAttacher = fileAttacher;
                         btnUpload.Enabled = true;
 
@@ -77,7 +79,7 @@ namespace UIForm
         {
             try
             {
-                Connection.SaveAttachment(this.fileAttacher);
+                ActionDataBase.SaveAttachment(this.fileAttacher);
                 MessageBox.Show("Cargado correctamente", "Listo!");
                 numericUp.Value = 1;
                 lblNameFile.Text = string.Empty;

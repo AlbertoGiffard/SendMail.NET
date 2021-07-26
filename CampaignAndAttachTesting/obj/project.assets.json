@@ -1755,28 +1755,42 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CampaignFileAttacher/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CampaignFileAttacher.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CampaignFileAttacher.dll": {}
-        }
-      },
-      "CampaignSender/1.0.0": {
+      "AppLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CampaignFileAttacher": "1.0.0",
+          "Connection": "1.0.0",
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppLogic.dll": {}
+        }
+      },
+      "Connection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Entity": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
-          "bin/placeholder/CampaignSender.dll": {}
+          "bin/placeholder/Connection.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CampaignSender.dll": {}
+          "bin/placeholder/Connection.dll": {}
+        }
+      },
+      "Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entity.dll": {}
         }
       }
     }
@@ -6148,21 +6162,26 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CampaignFileAttacher/1.0.0": {
+    "AppLogic/1.0.0": {
       "type": "project",
-      "path": "../CampaignFileAttacher/CampaignFileAttacher.csproj",
-      "msbuildProject": "../CampaignFileAttacher/CampaignFileAttacher.csproj"
+      "path": "../AppLogic/AppLogic.csproj",
+      "msbuildProject": "../AppLogic/AppLogic.csproj"
     },
-    "CampaignSender/1.0.0": {
+    "Connection/1.0.0": {
       "type": "project",
-      "path": "../Campaign-Sender/CampaignSender.csproj",
-      "msbuildProject": "../Campaign-Sender/CampaignSender.csproj"
+      "path": "../Connection/Connection.csproj",
+      "msbuildProject": "../Connection/Connection.csproj"
+    },
+    "Entity/1.0.0": {
+      "type": "project",
+      "path": "../Entity/Entity.csproj",
+      "msbuildProject": "../Entity/Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CampaignFileAttacher >= 1.0.0",
-      "CampaignSender >= 1.0.0",
+      "AppLogic >= 1.0.0",
+      "Entity >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -6201,11 +6220,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj": {
-              "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Campaign-Sender\\CampaignSender.csproj"
+            "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj": {
+              "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\AppLogic\\AppLogic.csproj"
             },
-            "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj": {
-              "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\CampaignFileAttacher\\CampaignFileAttacher.csproj"
+            "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\alber\\Downloads\\SendMail.NET\\Entity\\Entity.csproj"
             }
           }
         }
