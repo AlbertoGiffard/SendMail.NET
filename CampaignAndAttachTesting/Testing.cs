@@ -60,5 +60,43 @@ namespace CampaignAndAttachTesting
             //Act/Assert
             Assert.IsTrue(b1 == c2);
         }
+        [TestMethod]
+        public void AddNewEmail()
+        {
+            //Arrange
+            Email email = new Email("junior@prueba.com", "junior");
+            List<Email> list = new List<Email>();
+
+            //act
+            ActionEmail.AddNewEmail(email, list);
+
+            //Assert
+            Assert.IsTrue(list.Count > 0);
+        }
+        [TestMethod]
+        public void ShowAllEmails()
+        {
+            //Arrange
+            Campaign campaign = new Campaign();
+
+            //Act/Assert
+            Assert.AreEqual($"Aún sin destinatarios.", ActionEmail.ShowAllEmails(campaign));
+        }
+        [TestMethod]
+        public void RemoveAllEmailAdress()
+        {
+            //Arrange
+            List<Email> list = new List<Email>();
+            Campaign campaign = new Campaign(1, "subject", "body", list, DateTime.Now);
+            Email e1 = new Email("junior@prueba.com", "Junior");
+            Email e2 = new Email("sofia@prueba.com", "Sofia");
+
+            //Act
+            ActionEmail.AddNewEmail(e1, campaign.EmailList);
+            ActionEmail.AddNewEmail(e2, campaign.EmailList);
+
+            //Assert
+            Assert.IsTrue(ActionEmail.RemoveAllEmails(campaign));
+        }
     }
 }
